@@ -12,7 +12,7 @@
 
 Sub Main
 	Dim fso,fsw, fConfig, file, path
-    	path = xsh.Dialog.Prompt ("Your Xshell path", "Prompt Dialog", "", 0)
+	path = xsh.Dialog.Prompt ("IP file path?", "Prompt Dialog", "", 0)
 	Set fso = CreateObject("Scripting.FileSystemObject") 
 	Set fConfig = fso.OpenTextFile(path & "ip.txt", 1)
     	xsh.Screen.Synchronous = True

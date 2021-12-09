@@ -6,7 +6,7 @@
 ' @Date: 2021-12-09 13:15:03
 ' @LastEditors: YB11
 ' @LastEditTime: 2021-12-09 17:01:21
-' @FilePath: \菱信资料\xshell_pings.vbs
+' @FilePath: \xxx\xshell_pings.vbs
 'xsh.Session.Sleep 100
 
 
@@ -29,5 +29,5 @@ Do While fConfig.AtEndOfStream <> True
     	xsh.Screen.send vbcr
 	xsh.Session.Sleep(2000)
 	loop
-    xsh.Dialog.MsgBox("执行完毕！")
+	xsh.Dialog.MsgBox("ALL DONE!")
 End Sub
